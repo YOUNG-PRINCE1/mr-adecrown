@@ -1,0 +1,179 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.abt{
+    padding: 30px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    gap: 1rem;
+    position: relative;
+}
+
+.abt .p{
+    border: 1px solid gray;
+    border-radius: 3px;
+    padding: 2px;
+}
+
+.price{
+    position: absolute;
+    left: 80%;
+}
+
+.price p{
+    font-size: small;
+}
+
+.carousel-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.carousel-slide {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    gap: 5px;
+}
+.carousel-slide img {
+    width: 50%;
+    flex-shrink: 0;
+}
+.carousel-buttons {
+    position: absolute;
+    top: 50%;
+    width: 83%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+.carousel-button {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.info div{
+    border-left: 1px solid gray;
+}
+
+.discrip{
+    border: 1px solid gray;
+    border-radius: 8px;
+    padding: 15px;
+    height:fit-content;
+}
+
+.features{
+    border: 1px solid gray;
+    border-radius: 8px;
+    padding: 20px;
+    padding-left: 38px;
+}
+
+.list img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.list{
+    border-left: 2px solid blue;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 13px;
+    background: linear-gradient(to right, rgb(24, 24, 24) ,black);
+}
+
+.select p{
+    border: 1px solid gray;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.form{
+    border: 1px solid gray;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+.input[type=text]{
+    height: 8rem;
+}
+
+.note{
+    border: 1px solid gray;
+    border-radius: 8px;
+    display: flex;
+    gap: 9px;
+    padding: 8px;
+}
+
+.note p{
+    font-size: 15px;
+    border-left: 1px solid gray;
+    padding-left: 15px;
+}
+
+.add-fee{
+    display: flex;
+    position: relative;
+}
+
+.add-fee button{
+    position: absolute;
+    left: 80%;
+}
+
+.transfer{
+    position: relative;
+    display: flex;
+    gap: 15px;
+}
+
+.regulations{
+    border: 1px solid gray;
+    border-radius: 19px;
+    padding: 4px;
+    font-size: 13px;
+}
+
+.marleft{
+    border-left: 1px solid gray;
+}
+
+.fee-list{
+    border: 1px solid gray;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+.monthly-cost{
+    position: relative;
+    border: 1px solid gray;
+    border-radius: 8px;
+    width: 100%;
+    padding: 15px;
+}
+
+.monthly-cost button{
+    position: absolute;
+    left: 80%;
+    top: 5%;
+}
+
+.property-task{
+    display: flex;
+    gap: 20px;
+}
+
+.property-task  :nth-child(2){
+    border: 1px solid gray;
+    border-radius: 19px;
+    padding: 4px;
+    font-size: 13px;
+}

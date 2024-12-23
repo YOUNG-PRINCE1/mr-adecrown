@@ -1,0 +1,12 @@
+.pp p{
+    font-size: small;
+}
+.pp div{
+    display: fle;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 19.2rem;
+    padding: 5px;
+}

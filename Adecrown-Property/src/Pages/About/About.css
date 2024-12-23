@@ -1,0 +1,114 @@
+.ap{
+    margin-top: 60px;
+    /* padding: 75px; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ap h2{
+    font-size: 36px;
+    font-weight: bold
+}
+.ex div{
+    align-items: center;
+    border: 1px solid gray;
+    gap: 5px;
+    border-radius: 5px;
+    width: 9rem;
+    padding: 5px;
+}
+.ex p{
+    font-size: small;
+
+}
+body{
+    background-color: black;
+    color: white;
+}
+.thep p{
+    font-size: 12px;
+}
+.thep{
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px  hsl(229, 77%, 50%);
+}
+.the{
+    border-bottom: 1px solid gray;
+}
+.left{
+    border-left: 1px solid gray;
+}
+.value{
+    font-size: small;
+}
+
+.tp p{
+    font-size: 12px;
+}
+.oo{
+    border: 1px solid gray;
+    border-radius: 8px;
+    padding: 10px;
+    min-height: 8rem;
+}
+.box{
+    border: 1px solid gray;
+    border-radius: 0px 8px 8px 8px;
+    padding: 10px;
+    min-height: 11rem;
+    max-height: 11rem;
+}
+.step{
+    border-left: 1px solid gray;
+    /* border-bottom: 1px solid gray; */
+    margin: auto;
+    padding: 5px;
+}
+.team{
+    border: 1px solid gray;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.member{
+    min-width: 100%;
+    min-height: 15rem;
+    max-width: 100%;
+    max-height: 15rem;
+    border-radius: 8px;
+}
+.top{
+    bottom: 0.5%;
+    left: 83%;
+}
+.box2{
+    border: 1px solid gray;
+    border-radius: 8px;
+    padding: 10px;
+    margin: auto;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.location{
+    display:block ;
+    margin: auto;
+    padding: auto;
+}
+
+.whatsapp-icon{
+    max-height: 40px;
+    max-width: 40px;
+}
+
+.icon-container{
+    height: 30px;
+    width: 30px;
+}
+
+.icon-flex{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}

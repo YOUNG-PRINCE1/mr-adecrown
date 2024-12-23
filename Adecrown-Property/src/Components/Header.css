@@ -1,0 +1,14 @@
+.nn{
+    margin-left: 10rem;
+    gap: 3rem;
+}
+.logo{
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+nav{
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+

@@ -1,0 +1,67 @@
+.containers {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid gray;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.signup-form {
+    text-align: center;
+}
+
+.signup-form h2 {
+    margin-bottom: 20px;
+}
+
+.signup-form input[type="text"], .signup-form input[type="email"], .signup-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+.signup-form button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.signup-form button[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+
+.or-separator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.or-separator hr {
+    width: 40%;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+
+.or-separator span {
+    margin: 0 10px;
+}
+
+.google-sign-up button {
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.google-sign-up button img {
+    width: 20px;
+    margin-right: 10px;
+}

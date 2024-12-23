@@ -1,0 +1,49 @@
+ .pics .jj{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 1rem;
+}
+ .star{
+   height: 20px;
+   width: 100px;
+ }
+ .tp p{
+   font-size: 13px;
+ }
+ .oo{
+   border: 1px solid gray;
+   margin: 10px;
+   width: 22rem;
+   border-radius: 8px;
+   padding: 15px;
+ }
+ .jj img{
+   height: 50px;
+   width: 50px;
+ }
+
+ .but{
+   margin-left: 30%;
+ }
+
+ .unlock{
+   border: 1px solid gray;
+   border-radius: 8px;
+   margin: auto;
+   padding: 15px;
+   height: max-content;
+   width: 45rem;
+ }
+
+ .smart p{
+   font-size: 13px;
+ }
+
+ .para{
+   font-size: 13px;
+ }
+
+ .learn{
+   width: 100%;
+ }

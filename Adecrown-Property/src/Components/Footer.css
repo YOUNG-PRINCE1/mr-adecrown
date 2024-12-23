@@ -1,0 +1,10 @@
+footer{
+    border: 1px solid blue;
+    margin: 0px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.gap p{
+    font-size: small;
+}
